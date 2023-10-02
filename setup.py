@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     readme = fh.read()
 
 setup(name='bisneto-mathlib',
-    version='0.0.2',
+    version='0.0.3',
     url='https://github.com/hbisneto/Mathematics',
     license='MIT License',
     author='Heitor Bisneto',

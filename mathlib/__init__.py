@@ -54,3 +54,11 @@ def baskara(a, b, c, suppress_warn = True):
     x2 = (-b - (sqrt)) / (2 * a)
     y = [delta, x, x2]
     return y
+
+def arithmetic_progression(a, b, c):
+    """a: The position you want to find
+    b: The first number of the index
+    c: The interval between numbers in the list
+    """
+    calc = b + (a - 1) * c
+    return calc
